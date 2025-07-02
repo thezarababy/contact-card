@@ -129,7 +129,7 @@ const Contact = () => {
 
       <section>
         {users.map((data, i) => (
-          <div className="bg-gray-200 p-4 m-2" key={i}>
+          <div className="bg-gray-200 p-5 m-2" key={i}>
             <h1>
               <b>FirstName: {data.firstName}</b>
             </h1>
